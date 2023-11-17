@@ -91,7 +91,15 @@ a{text-decoration: none;}
     @media (max-width: 768px) {
         /* Estilos para pantallas de menos de 768 píxeles */
       
-    
+        .phone-wsp {
+            position: fixed;
+            bottom: 48px;
+            right: 0px;
+          }
+        .phone-wsp a img{
+            z-index: 9999;
+            width: 50px;
+        }
     
     
     }
