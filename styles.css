@@ -4,13 +4,14 @@ span{
 }
 .landing {
     height: 100hv;
-    margin: 0px 25px;
+    margin: -30px 25px 0px 25px;
 }
 .justificado{
     text-align: justify;
 }
 .title{
     font-size: 30px;
+    margin: 25px 0px -30px 0px;
 }
 nav{
  justify-content: center;
@@ -40,6 +41,9 @@ nav{
     width: 100%;
     justify-content: center;
     text-align: center;
+}
+.mpolitico{
+    width: 10%;
 }
 .mapa{width: 50%;}
 .centrar{text-align: center;
