@@ -80,3 +80,14 @@ a{text-decoration: none;}
     .descargar{
         color: blue;
     }
+
+
+
+
+    @media (max-width: 768px) {
+        /* Estilos para pantallas de menos de 768 píxeles */
+      
+    
+    
+    
+    }
