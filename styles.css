@@ -94,12 +94,13 @@ a{text-decoration: none;}
         .phone-wsp {
             position: fixed;
             bottom: 48px;
-            right: 0px;
+            right: 50px;
           }
         .phone-wsp a img{
             z-index: 9999;
             width: 50px;
         }
+        .foot{ font-size: 12px;}
     
     
     }
