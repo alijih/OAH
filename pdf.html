@@ -28,16 +28,11 @@
     <div style="width: 100%;background: #000;height: 45px;position: absolute;">
 
     </div>
-    <iframe src="SORS.pdf?embedded=true#toolbar=0" id="iframe" frameborder="0" allowfullscreen></iframe>
+    <iframe src="SORS.pdf?embedded=true#toolbar=0" id="iframepdf" toolbar="0" frameborder="0" allowfullscreen></iframe>
   </div>
 
 
-  <script>
-// Bloquear el clic derecho
-jQuery('#iframe')-load(function(){
-    jQuery('iframe').contents().find("#toolbarViewerRight").hide();
-}
-)
-</script>
+  <script src="script.js"></script>
+
 </body>
 </html>

@@ -1,7 +1,13 @@
 /* Estilos generales */
+span{
+    text-align: justify;
+}
 .landing {
     height: 100hv;
     margin: 10px 25px;
+}
+.justificado{
+    text-align: justify;
 }
 nav{
  justify-content: center;
@@ -11,6 +17,9 @@ nav{
   width: 100%;
   background-color: black;
   z-index: 999;
+}
+.navbar-brand{
+    color: white;
 }
 .carousel{
     height: 50%;
