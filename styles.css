@@ -93,8 +93,8 @@ a{text-decoration: none;}
       
         .phone-wsp {
             position: fixed;
-            bottom: 48px;
-            right: 50px;
+            bottom: 80px;
+            right: 0px;
           }
         .phone-wsp a img{
             z-index: 9999;
@@ -102,5 +102,10 @@ a{text-decoration: none;}
         }
         .foot{ font-size: 12px;}
         .mapa{width: 80%;}
+        .autoria {
+            position: fixed;
+            bottom: 88px;
+            left: 10px;
+          }
     
     }
