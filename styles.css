@@ -142,7 +142,9 @@ a{text-decoration: none;}
             justify-content: center;
             text-align: center;
         }
-        .grafico{height: 90%;}
+        .grafico{height: auto;
+        width: 80%;
+        }
         .paramapa{
             width: 100%;
             justify-content: center;
