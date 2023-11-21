@@ -154,4 +154,15 @@ a{text-decoration: none;}
         .mpolitico{
             height: 50vh;
         }
+        .carousel-inner img {
+            width: 100%;
+            max-height: 85vh;
+            object-fit: contain;
+
+        }
+        
+        .carousel-inner{
+         height: 85vh;
+         width: 100%;
+        }
     }
