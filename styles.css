@@ -13,6 +13,7 @@ span{
     font-size: 30px;
     margin: 25px 0px -30px 0px;
 }
+.pantalla-chica{display: none;}
 nav{
  justify-content: center;
  align-items: center;
@@ -24,6 +25,9 @@ nav{
 }
 .navbar-brand{
     color: white;
+}
+.navbar-brand img{
+    margin-top: -12px;
 }
 .carousel{
     height: 50%;
@@ -42,38 +46,47 @@ nav{
     justify-content: center;
     text-align: center;
 }
+.estupefacientes{width: 80%;}
 .mpolitico{
-    width: 10%;
+    height: 85vh;
 }
 .mapa{width: 50%;}
+.paramapagrafico{
+    height: 60vh;
+    justify-content: center;
+    text-align: center;
+}
+.grafico{height: 100%;}
 .centrar{text-align: center;
     align-content: center;
     justify-content: center;}
 
     .carousel-inner img {
-        width: 80%;
-        max-height: 70vh;
+        width: 100%;
+        max-height: 89vh;
     }
     
     .carousel-inner{
-     height: 70vh;
+     height: 85vh;
      width: 100%;
     }
 a{text-decoration: none;}
 .phone-wsp {
     position: fixed;
-    bottom: 48px;
-    right: 15px;
+    bottom: 65px;
+    right: 28px;
   }
-.phone-wsp a img{
+  .pantalla-grande{display: block;}
+
+.iconowsp{
     z-index: 9999;
-    width: 100px;
+    width: 60px;
 }
 
 .autoria {
     position: fixed;
-    bottom: 60px;
-    left: 20px;
+    bottom: 78px;
+    left: 37px;
   }
 .autoria button:hover{
     background-color: cyan;
@@ -90,7 +103,23 @@ a{text-decoration: none;}
 
     @media (max-width: 768px) {
         /* Estilos para pantallas de menos de 768 píxeles */
-      
+        .navbar-brand img{
+            margin-top: 0px;
+        }
+        .centrarpc{
+            width: 100%;
+            display: block;
+            justify-content: center;
+            align-content: center;
+        }
+        .pantalla-grande{display: none;}
+        .pantalla-chica{
+            width: 100%;
+            display: block;}
+        .pantalla-chica button{
+            width: 90%;
+        }
+
         .phone-wsp {
             position: fixed;
             bottom: 80px;
@@ -102,10 +131,24 @@ a{text-decoration: none;}
         }
         .foot{ font-size: 12px;}
         .mapa{width: 80%;}
+        .estupefacientes{width: 100%;}
         .autoria {
             position: fixed;
             bottom: 88px;
             left: 10px;
           }
-    
+          .paramapagrafico{
+            height: 21vh;
+            justify-content: center;
+            text-align: center;
+        }
+        .grafico{height: 100%;}
+        .paramapa{
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+        }
+        .mpolitico{
+            height: 65vh;
+        }
     }
