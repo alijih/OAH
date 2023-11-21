@@ -164,5 +164,7 @@ a{text-decoration: none;}
         .carousel-inner{
          height: 85vh;
          width: 100%;
+         margin-bottom: -350px;
         }
+
     }
