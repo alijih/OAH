@@ -46,7 +46,7 @@ nav{
     justify-content: center;
     text-align: center;
 }
-.estupefacientes{width: 80%;}
+.estupefacientes{width: 100%;}
 .mpolitico{
     height: 85vh;
 }
@@ -149,6 +149,7 @@ a{text-decoration: none;}
             width: 100%;
             justify-content: center;
             text-align: center;
+            overflow: hidden;
         }
         .mpolitico{
             height: 50vh;
